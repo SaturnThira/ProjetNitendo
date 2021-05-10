@@ -59,8 +59,11 @@ public class Test {
 		
 		
 		Client client1 = new Client(nom,prenom,achats);
+	
 		
 		System.out.println(client1);
+		
+		System.out.println("Mon test");
 
 	}
 
