@@ -7,11 +7,11 @@ public class Console {
 	private String nom;
 	private int Prix;
 	private LocalDate dateDeSortie;
-	public Console(String nom, int prix, LocalDate dateDeSortie) {
-		super();
+	public Console(String nom, int prix, String dateDeSortie) {
+		
 		this.nom = nom;
 		Prix = prix;
-		this.dateDeSortie = dateDeSortie;
+		this.dateDeSortie = LocalDate.parse(dateDeSortie);
 	}
 	public String getNom() {
 		return nom;
