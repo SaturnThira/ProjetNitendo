@@ -44,7 +44,7 @@ public class Boutique {
 
 	@Override
 	public String toString() {
-		return "Boutique [nom=" + nom + ", adresseBoutique=" + adresseBoutique + ", jeux=" + jeux + "]";
+		return "\nBoutique [nom=" + nom + ", adresseBoutique=" + adresseBoutique + ", jeux=" + jeux + "]";
 	}
 	
 	

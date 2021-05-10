@@ -40,6 +40,10 @@ public class Achat
 		this.prix = prix;
 		this.boutique = boutique;
 	}
+	@Override
+	public String toString() {
+		return "\nAchat [jeu=" + jeu + ", date=" + date + ", prix=" + prix + ", boutique=" + boutique + "]";
+	}
 	
 	
 	

@@ -31,5 +31,11 @@ public class Client {
 	public void setListedeJeux(List<Achat> listedeJeux) {
 		ListedeJeux = listedeJeux;
 	}
+	@Override
+	public String toString() {
+		return "Client [nom=" + nom + ", prenom=" + prenom + ", ListedeJeux=" + ListedeJeux + "]";
+	}
 
+	
+	
 }
