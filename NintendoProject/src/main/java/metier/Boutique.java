@@ -9,7 +9,7 @@ public class Boutique {
 	
 	private List<Jeu> jeux ;
 	
-	
+
 	
 
 	public Boutique(String nom, Adresse adresseBoutique, List<Jeu> jeux) {

@@ -21,11 +21,23 @@ public class Test {
 		consoles.add(PC);
 		consoles.add(Xbox);
 		
-		Jeu wow = new Jeu("WoW", consoles);
-		Jeu mario = new Jeu("Super Mario", consoles);
-		Jeu genshi = new Jeu("Genshin", consoles);
-		Jeu zelda = new Jeu("Zelda", consoles);
-		Jeu pokemon = new Jeu("Pokemon", consoles);
+		
+		Adresse a1 = new Adresse (12, "rue", "ville");
+		Adresse a2 = new Adresse (16, "rue3213", "ville654654");
+		
+	    List<Jeu> listeJeux = new ArrayList ();
+		
+		
+		Boutique b1 = new Boutique ("Micromania",a1,listeJeux);
+		Boutique b2 = new Boutique ("Gamecash", a2,listeJeux);
+		
+		
+		
+		Jeu wow = new Jeu("WoW", consoles,b1);
+		Jeu mario = new Jeu("Super Mario", consoles,b1);
+		Jeu genshi = new Jeu("Genshin", consoles,b2);
+		Jeu zelda = new Jeu("Zelda", consoles,b1);
+		Jeu pokemon = new Jeu("Pokemon", consoles,b2);
 
 	}
 
