@@ -46,7 +46,7 @@ public class Test {
 		
 		Achat jeux1 = new Achat (wow,"2018-02-03",450,b1);
 		Achat jeux2 = new Achat (pokemon,"2014-02-03",3500,b2);
-		Achat jeux3 = new Achat (zelda,"20110-01-02",100,b1);
+		Achat jeux3 = new Achat (zelda,"2010-01-02",100,b1);
 		
 		achats.add(jeux1);
 		achats.add(jeux2);
@@ -59,6 +59,8 @@ public class Test {
 		
 		
 		Client client1 = new Client(nom,prenom,achats);
+		
+		System.out.println(client1);
 
 	}
 

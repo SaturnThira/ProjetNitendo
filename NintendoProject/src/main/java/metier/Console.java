@@ -33,7 +33,7 @@ public class Console {
 	}
 	@Override
 	public String toString() {
-		return "Console [nom=" + nom + ", Prix=" + Prix + ", dateDeSortie=" + dateDeSortie + "]";
+		return "\nConsole [nom=" + nom + ", Prix=" + Prix + ", dateDeSortie=" + dateDeSortie + "]";
 	}
 
 	

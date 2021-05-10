@@ -49,8 +49,7 @@ public class Jeu {
 
 	@Override
 	public String toString() {
-		return "Jeu [titre=" + titre + ", consoles=" + consoles + ", boutique=" + boutique + ", getClass()="
-				+ getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+		return "\nJeu [titre=" + titre + ", consoles=" + consoles + ", boutique=" + boutique + "]";
 	}
 	
 	
